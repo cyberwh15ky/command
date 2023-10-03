@@ -30,3 +30,17 @@ Tool: cmd ( admin )
 # Scheduled Tasks
 Tool: cmd ( admin )
 > schtasks
+
+![image](https://github.com/cyberwh15ky/command/assets/142871997/8813c1e4-e984-45cb-a054-cd43032a0d96)
+
+## Scheduled Tasks
+To retrieve detailed information about any of the services, you can use a command like the following one:
+Tool: cmd ( admin )
+> schtasks /query /tn vulntask /fo list /v
+
+![image](https://github.com/cyberwh15ky/command/assets/142871997/d04a7a55-2b46-444e-95ea-0543de58b4f6)
+
+
+
+
+
