@@ -5,7 +5,7 @@ Tool: cmd ( admin )
 Saved Windows Credentials
 Tool: cmd ( admin )
 > cmdkey /list
-# try the user login
+Try the user login
 > runas /savecred /user:admin cmd.exe
 
 
