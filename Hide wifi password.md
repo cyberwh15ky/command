@@ -12,4 +12,4 @@
 > netsh wlan export profile folder=C:\ key=clear
 
 # Remove File
-> del "<filelocation> \ <filename>"
+> del "filelocation\filename"
