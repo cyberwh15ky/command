@@ -1,12 +1,12 @@
-# list wifi
+# WIFI: list wifi
 > netsh wlan show networks
 
-# add and delete wifi filter
+# WIFI: add and delete wifi filter
 > netsh wlan add filter permission = allow ssid ="ssidname" networktype = infrastructure
 > netsh wlan delete filter permission = allow ssid ="ssidname" networktype = infrastructure
 
-# list wifi profile
+# WIFI: list wifi profile
 > netsh wlan show profile
 
-# get endpoint wifi profile
+# WIFI: get endpoint wifi profile
 > netsh wlan export profile folder=C:\ key=clear
