@@ -1,15 +1,21 @@
-# WIFI: list wifi
+# WIFI
+### WIFI: list wifi
 > netsh wlan show networks
 
-# WIFI: add and delete wifi filter
+### WIFI: add and delete wifi filter
 > netsh wlan add filter permission = allow ssid ="ssidname" networktype = infrastructure
 > netsh wlan delete filter permission = allow ssid ="ssidname" networktype = infrastructure
 
-# WIFI: list wifi profile
+### WIFI: list wifi profile
 > netsh wlan show profile
 
-# WIFI: get endpoint wifi profile
+### WIFI: get endpoint wifi profile
 > netsh wlan export profile folder=C:\ key=clear
 
+# WinCommand
 # Remove File
 > del "filelocation\filename"
+
+#
+## Test the domain port
+> Test-NetConnection -Computername <domain> -Port 44
