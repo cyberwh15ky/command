@@ -10,3 +10,6 @@
 
 # WIFI: get endpoint wifi profile
 > netsh wlan export profile folder=C:\ key=clear
+
+# Remove File
+> del "filename"
