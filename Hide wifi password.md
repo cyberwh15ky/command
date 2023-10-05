@@ -1,5 +1,9 @@
+# Basic Command
+### Remove File
+> del "filelocation\filename"
+
 # WIFI
-### WIFI: WinCommand: list wifi
+### WIFI: list wifi
 > netsh wlan show networks
 
 ### WIFI: add and delete wifi filter
@@ -12,10 +16,6 @@
 ### WIFI: get endpoint wifi profile
 > netsh wlan export profile folder=C:\ key=clear
 
-# 
-# Remove File
-> del "filelocation\filename"
-
-
+# Test domain state
 ## Test the domain port
 > Test-NetConnection -Computername <domain> -Port 44
